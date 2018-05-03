@@ -8,6 +8,6 @@ import org.springframework.data.repository.CrudRepository;
 import com.cws.moneykeeper.model.Function;
 
 public interface FunctionDao extends CrudRepository<Function, Integer> {
-	@Query("FROM Function a WHERE a.idParent = 0")
+	@Query("FROM Function")
 	public List<Function> search1();
 }

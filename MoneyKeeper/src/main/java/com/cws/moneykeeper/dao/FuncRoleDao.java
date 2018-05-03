@@ -8,6 +8,6 @@ import org.springframework.data.repository.CrudRepository;
 import com.cws.moneykeeper.model.FuncRole;
 
 public interface FuncRoleDao extends CrudRepository<FuncRole, Integer> {
-	@Query("FROM FuncRole a WHERE a.idParent = 0")
+	@Query("FROM FuncRole")
 	public List<FuncRole> search1();
 }
