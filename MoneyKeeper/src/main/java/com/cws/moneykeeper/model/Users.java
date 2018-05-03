@@ -32,7 +32,7 @@ public class Users {
 	@Column(columnDefinition = "integer", name = "id_role")
 	private Integer idRole;
 
-	@Column(columnDefinition = "boolean", name = "is_deleted")
+	@Column(columnDefinition = "bool", name = "is_deleted")
 	private boolean isDeleted;
 
 	@Column(columnDefinition = "integer", name = "create_by")

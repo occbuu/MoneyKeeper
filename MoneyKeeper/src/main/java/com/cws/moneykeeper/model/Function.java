@@ -26,7 +26,7 @@ public class Function {
 	@Column(columnDefinition = "varchar(30)", name = "func_name")
 	private String funcName;
 
-	@Column(columnDefinition = "boolean", name = "is_deleted")
+	@Column(columnDefinition = "bool", name = "is_deleted")
 	private boolean isDeleted;
 
 	@Column(columnDefinition = "integer", name = "create_by")

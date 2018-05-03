@@ -26,7 +26,7 @@ public class FuncRole {
 	@Column(columnDefinition = "integer", name = "id_func")
 	private String idFunc;
 
-	@Column(columnDefinition = "boolean", name = "is_deleted")
+	@Column(columnDefinition = "boole", name = "is_deleted")
 	private boolean isDeleted;
 
 	@Column(columnDefinition = "integer", name = "create_by")
